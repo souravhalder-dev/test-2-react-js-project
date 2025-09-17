@@ -6,7 +6,7 @@ export default function Friends({ friendsdata }) {
     <div>
       <h1>Friends {friends.length}</h1>
       {friends.map((friend) => (
-        <Friend></Friend>
+        <Friend friend={friend}></Friend>
       ))}
     </div>
   );
